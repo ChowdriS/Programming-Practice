@@ -1,0 +1,40 @@
+#ex{
+    position: absolute;
+    width: 772px;
+    height: 61px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+    color: #FFFFFF;
+        }
+    .c{position: absolute;width: 1300px;height: 90px;background: #0C262C;}
+
+    .l{position: absolute;width: 1300px;height: 90px;background: #4E5455;margin-top: 100px;}
+
+    #elective{
+        /* position: absolute; */
+        /* font-family: 'Inter';*/
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 61px;
+        color: #FFFFFF; 
+        /* margin: auto; */
+        text-align: center;
+        }
+    
+    #joe{
+position: absolute;
+width: 380px;
+height: 61px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 61px;
+/* identical to box height */
+color: #FFFFFF;
+    }

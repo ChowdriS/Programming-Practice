@@ -1,0 +1,20 @@
+var module=require('./dbmodule');
+var http=require('http');
+var url=require('url');
+var query=require('querystring');
+http.createServer((req,res)=>{
+var data1='';
+req.on('data',(chunk)=>{
+data1+=chunk;
+res.end(data1);
+});
+req.end('end',()=>{
+var qs=query.parse(data1);
+var username=qs[username];
+var email=qs[email];
+if(req.url==='/update'){
+module.updateUser(username,email,response);}
+else if(req.url==='/delete'){
+module.deleteUser(username,email,response);}
+});
+}).listen(3000);

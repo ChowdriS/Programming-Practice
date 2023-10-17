@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Event Examples</title>
+  <script>
+    function handleClick() {
+        alert("Click event occurred");
+    }
+
+    function handleDoubleClick() {
+        alert("Double click event occurred");
+    }
+
+    function handleMouseOut() {
+        alert("Mouse out event occurred");
+    }
+
+    function handleMouseMove() {
+        alert("Mouse move event occurred");
+    }
+
+    function handleMouseOver() {
+        alert("Mouse over event occurred");
+    }
+
+    function handleLoad() {
+        alert("Load event occurred");
+    }
+
+    function handleFocus() {
+        alert("Focus event occurred");
+    }
+  
+    function handleBlur() {
+        alert("Blur event occurred");
+    }
+
+    window.addEventListener("load", function() {
+        input = document.getElementById("myInput");
+        input.addEventListener("focus", handleFocus);
+        input.addEventListener("blur", handleBlur);
+      });
+
+  </script>
+</head>
+<body>
+  <h1>Event Examples</h1>
+  <button onclick="handleClick()">Click Me</button>
+  <button ondblclick="handleDoubleClick()">Double Click Me</button>
+  <div >Move the mouse here</div>
+  <input type="text" id="myInput" placeholder="Click inside me and then outside">
+  
+  <script>
+    window.onload = handleLoad;
+  </script>
+</body>
+</html>
