@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int main(){
+int main() {
 
     int n,ans=0;
     cin>>n;
@@ -12,6 +12,5 @@ int main(){
     for(auto i:nums)    ans^=i;
 
     cout<<(ans==0?65:66);
-
 
 }
