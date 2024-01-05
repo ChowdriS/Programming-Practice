@@ -3,7 +3,7 @@
 import { useState } from "react"
 
 const Building_block = () => {
-    const [position,setposition] = useState({top:0,left:0});
+    const [position,setposition] = useState({top:25,left:25});
     const [score,setscore] = useState(0);
 
     function handleChange() {
