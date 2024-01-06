@@ -6,7 +6,7 @@ export default function Home() {
   const [secretNumber, setSecretNumber] = useState(generateRandomNumber());
   const [currentGuess, setCurrentGuess] = useState('');
   const [previousGuesses, setPreviousGuesses] = useState([]);
-  const [message, setMessage] = useState('');
+  const [message, setMessage] = useState('The Secrete Number will be between 1 and 100');
   const [attempts, setAttempts] = useState(10);
   const [flag, setflag] = useState(false);
   const [HighLow, setHighLow] = useState("");
@@ -68,11 +68,11 @@ export default function Home() {
   }
 
   return (
-    <div className=' flex flex-col items-center justify-center bg-slate-950 text-white w-full h-60'>
-      <h1 className='text-3xl py-2 italic my-3'>Number Guessing Game</h1>
-      <p>{message}</p>
-      <p>{HighLow}</p>
-      <div className='flex gap-5 py-2'>
+    <div className=' flex flex-col items-center justify-center bg-slate-950 text-white w-full min-h-screen'>
+      <h1 className='text-3xl py-2 italic my-2'>Number Guessing Game</h1>
+      <p className=' text-center'>{message}</p>
+      <p className='my-2 text-center'>{HighLow}</p>
+      <div className=''>
           <input
           type="text"
           placeholder='Enter the Number'
@@ -81,6 +81,8 @@ export default function Home() {
           disabled={flag}
           className='text-black'
         />
+      </div>
+      <div className='flex items-center justify-center gap-5 py-4'>
         <button onClick={handleGuess} disabled={flag} className=' bg-slate-300 text-black rounded-lg w-16'>
           Guess
         </button>
