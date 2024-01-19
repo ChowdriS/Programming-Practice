@@ -27,15 +27,13 @@ int main(){
     cin>>t;
     int n = queue.size();
     while(t--){
-        string temp(queue.begin(),queue.end());
         for(int i=0;i<n;i++){
             if(i!=n-1){
-                if(temp[i]=='B' and temp[i+1]=='G'){
-                    swap(temp[i],temp[i+1]);
+                if(queue[i]=='B' and queue[i+1]=='G'){
+                    swap(queue[i],queue[i+1]);
                 }
             }
         }
-        queue=temp;
     }
     cout<<queue;
 }
