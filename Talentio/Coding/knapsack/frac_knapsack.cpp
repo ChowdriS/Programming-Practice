@@ -12,7 +12,6 @@ int main(){
     sort(mp.begin(),mp.end(),greater<pair<int,pair<int,int>>>());
     int profit = 0;
     for(auto i:mp){
-        if(cur_weig==0) break;
         if(i.second.second<=cur_weig){   
             cur_weig-=i.second.second;
             profit+=i.second.first;
