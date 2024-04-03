@@ -7,7 +7,7 @@ from langchain_community.utilities.sql_database import SQLDatabase
 from langchain_community.tools.sql_database.tool import QuerySQLDataBaseTool
 
 # Set Google API Key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyAC4n1X_WlPTdll4vvKDH7ptQT9IKqNRWs"
+# os.environ["GOOGLE_API_KEY"] = "AIzaSyAC4n1X_WlPTdll4vvKDH7ptQT9IKqNRWs"
 
 db_user = "sql6695394"
 db_password = "qEpFSWiEsE"

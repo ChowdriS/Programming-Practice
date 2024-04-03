@@ -12,7 +12,7 @@ from operator import itemgetter
  from langchain_core.runnables import RunnablePassthrough
 
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyB8W526Lj7M8FVoruMol92zNJ0kUPgPtIA"
+# os.environ["GOOGLE_API_KEY"] = "AIzaSyB8W526Lj7M8FVoruMol92zNJ0kUPgPtIA"
 
 db_user = "sql6695394"
 db_password = "qEpFSWiEsE"
