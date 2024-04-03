@@ -159,10 +159,6 @@ def invoke_chain(question):
     return response
 
 
-# Set OpenAI API key from Streamlit secrets
-# client = OpenAI(api_key="")
-
-
 # Set a default model
 if "gemini_model" not in st.session_state:
     st.session_state["gemini_model"] = "gemini-pro"
