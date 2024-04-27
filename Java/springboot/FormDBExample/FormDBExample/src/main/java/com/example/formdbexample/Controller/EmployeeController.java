@@ -7,12 +7,13 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
 import com.example.formdbexample.Model.Employee;
 import com.example.formdbexample.service.EmployeeService;
 
 
 @Controller
-
 
 public class EmployeeController {
 
