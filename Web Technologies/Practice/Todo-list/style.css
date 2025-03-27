@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+#login-page {
+    background-color: #FFFFFF;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#login-form input, #login-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+}
+
+#login-form button {
+    background-color: #012E57;
+    color: #FFFFFF;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#login-form button:hover {
+    background-color: #002647;
+}
+
+#login-error {
+    color: #FF0000;
+    margin-top: 10px;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #ECECEC;
+    margin-bottom: 20px;
+}
+
+.back-button {
+    font-size: 24px;
+    text-decoration: none;
+    color: #012E57;
+}
+
+h1, h2 {
+    font-size: 24px;
+    color: #012E57;
+}
+
+.profile-section .profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-info h2 {
+    font-size: 18px;
+    color: #012E57;
+    margin: 0;
+}
+
+.profile-info p {
+    font-size: 12px;
+    color: #7D7D7D;
+    margin: 5px 0 0;
+}
+
+.profile-picture img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #2C2B2B;
+}
+
+.goal-section {
+    background-color: #012E57;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+.goal-section h3 {
+    font-size: 16px;
+    margin: 0 0 10px 0;
+}
+
+.goal-arc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.progress {
+    position: relative;
+}
+
+.semi-circle {
+    width: 80px;
+    height: 40px;
+    background-color: #FCB000;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+}
+
+.percentage {
+    position: absolute;
+    top: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+}
+
+.goal-metrics div {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.details-section p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.details-section span {
+    color: #002647;
+}
+
+.medical-history-section {
+    padding-top: 10px;
+    border-top: 2px solid #ECECEC;
+}
+
+.medical-history-section h3 {
+    font-size: 16px;
+    color: #012E57;
+}
+
+.medical-history-section p {
+    font-size: 14px;
+    margin: 5px 0 0 0;
+    color: #2C2B2B;
+}
+

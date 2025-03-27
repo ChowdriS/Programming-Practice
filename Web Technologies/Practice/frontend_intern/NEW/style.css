@@ -1,0 +1,58 @@
+.btm_menu
+{
+    padding: 5px;
+    background-color:#16336d;
+    color:white;
+}
+
+.btm_menu ul
+{
+    list-style: disc; 
+    padding-top: 5px;
+}
+
+.btm_menu ul li a
+{
+    font-size: 12px;
+    color:white;
+    text-decoration: none;
+
+}
+.btm_menu  a:hover
+{
+     
+    color: 	#ffbb00;
+    text-decoration: none;
+
+}
+.btm_menu a{
+    color:white;
+    text-decoration: none;
+}
+.full_page
+{
+    padding-top:10px;
+    text-align: justify;
+    
+}
+.heading
+{
+    color: 	#000080;
+}
+.lab_heading
+{
+    color: 	#000080;
+	text-transform: uppercase;
+}
+.container-fluid
+{
+    width:97%;
+}
+.navbar_brown
+{
+    background-color: brown;
+}
+.navbar_dept
+{
+    background-color:#747575;
+}

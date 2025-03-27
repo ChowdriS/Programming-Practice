@@ -1,0 +1,8 @@
+.dropdown-toggle.active-dropdown::after {
+    transform: rotate(-90deg);
+}
+.navbar-nav .nav-item .nav-link
+{
+    color:white;
+    font-size: 13px;
+}
